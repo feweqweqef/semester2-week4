@@ -18,6 +18,17 @@ int main( int argc, char **argv ) {
     /*
     Your code
     */
+    if (argc != 4) {
+        printf("Usage: %s <integer> <string> <double>\n", argv[0]);
+        return 1;
+    }
+    int intValue = atoi(argv[1]);
+    char *strValue = argv[2];
+    double doubleValue = atof(argv[3]);
+    printf("Integer value: %d\n", intValue);
+    printf("String value: %s\n", strValue);
+    printf("Double value: %f\n", doubleValue);
+    
 
     return 0;
 }

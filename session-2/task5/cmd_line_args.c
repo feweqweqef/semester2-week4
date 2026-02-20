@@ -19,3 +19,6 @@ int main( int argc, char **argv ) {
 
 // What is printed?
 // What form is the data?
+
+//Number of args: 1
+//argv[0]: ./a.out

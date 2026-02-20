@@ -9,7 +9,7 @@
 
 int main( void ) {
     int mat1[5][5];
-    int mat2[5][5];
+    int mat2[5][5];  
     int sum[5][5];
 
     // set initial data
